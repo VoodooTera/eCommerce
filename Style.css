@@ -1,0 +1,59 @@
+Body {
+    background-image: url("https://images.unsplash.com/photo-1447195047884-0f014b0d9288?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=50da6616a2bfc6b5c5208c291c28ce16&auto=format&fit=crop&w=2200&q=60");
+    color: white;
+    font-family:"Philosopher";
+    font-size: 45px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 900px 800px;
+    background-repeat: no-repeat;
+    background-color: #F92A82;
+    font-weight:bold;
+}
+h1 {
+    text-align: center;
+    color: #F92A82;
+    font-size: xxxx-large;
+    font-weight:bold;
+    position:center;
+    padding:10px;
+    
+}
+/* Style all font awesome icons */
+ .fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+/* Add a hover effect if you want */
+ .fa:hover {
+    opacity: 0.7;
+}
+/* Set a specific color for each brand */
+
+/* Facebook */
+ .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* Twitter */
+ .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,145 @@
+Body {
+    background-image: url("https://images.unsplash.com/photo-1506368083636-6defb67639a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f6fc8776ae60faebee6b009f9bd2f382&auto=format&fit=crop&w=2200&q=60");
+    color: #F92A82;
+    font-family:"Philosopher";
+    font-size: 45px;
+    background-attachment:fixed;
+    background-position:center;
+    background-size: 1100px;
+    font-weight:bold;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    font-family:"Philosopher", ;
+}
+.shopping-cart {
+    width: 1000px;
+    height: 700px;
+    margin: 60px auto;
+    background: black;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    height: 90px;
+    padding: 0px 30px;
+    color: #F92A82;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+}
+.item {
+    padding: 10px 40px;
+    height: 300px;
+    display: flex;
+}
+
+.item:nth-child(3) {
+    border-top: 2px solid #F92A82;
+    border-bottom: 2px solid #F92A82;
+    padding:40px;
+}
+.item:nth-child(4) {
+    border-bottom: 2px solid #F92A82;
+    padding:40px;
+}
+.item:nth-child(5) {
+    border-bottom: 2px solid #F92A82;
+    padding:40px;
+}
+.item:nth-child(6) {
+    border-bottom: 2px solid #F92A82;
+    padding: 40px;
+}
+
+.image {
+    margin-right: 50px;
+}
+Let’s add some basic style to product name and description. .description {
+    padding-top: 50px;
+    margin-right: 90px;
+    width: 70px;
+    margin-left: 90px;
+    text-align:center;
+}
+.description span {
+    display: block;
+    font-size: 20px;
+    color: #F92A82;
+    font-weight: 200;
+}
+.description span:first-child {
+    margin-bottom: 70px;
+    margin-left:70px;
+}
+.description span:last-child {
+    font-weight: 300;
+    margin-top: 8px;
+    color: #F92A82;
+}
+.quantity {
+    padding-top: 10px;
+    margin-right: 20px;
+}
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 20px;
+    color: #F92A82;
+    font-weight: 300;
+}
+button[class*=btn] {
+    width: 30px;
+    height: 30px;
+    background-color: #F92A82;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.minus-btn img {
+    margin-bottom: 3px;
+    color: blue;
+}
+.plus-btn img {
+    margin-top: 60px;
+}
+button:focus, input:focus {
+    outline:0;
+}
+
+@media (max-width: 800px) {
+    .shopping-cart {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .item {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .image img {
+        width: 50%;
+    }
+    .image, .quantity, .description {
+        width: 100%;
+        text-align: center;
+        margin: 6px 6px;
+    }
+    .buttons {
+        margin-right: 40px;
+        margin-top: 40px;
+    }
+}
+.imgResize {
+    height: 200%;
+    width: 40%;   
+}

@@ -1,0 +1,14 @@
+Body {
+    background-image: url("https://images.unsplash.com/photo-1532013801757-9d3c67111783?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1466f5fbe19168b96a98bb8662a609d1&auto=format&fit=crop&w=2200&q=60");
+    color: #F92A82;
+    font-family:"Philosopher";
+    font-size: 45px;
+     background-attachment: fixed;
+    background-position: center; 
+    font-weight: bold;
+    background-size: 900px 800px;
+}
+
+div {
+    
+}
